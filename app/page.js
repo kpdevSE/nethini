@@ -1,5 +1,6 @@
 import Image from "next/image";
 import womanLogo from "../public/nethini/womalogo.png";
+import Carousel from "./components/carousel";
 import MainHome from "./components/mainHome";
 
 export default function Home() {
@@ -21,6 +22,10 @@ export default function Home() {
         <MainHome />
       </div>
       {/* End Of Main Home Section */}
+
+      <div className=" w-[90%] mx-auto h-full mt-24 ">
+        <Carousel />
+      </div>
     </>
   );
 }
