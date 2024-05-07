@@ -13,11 +13,11 @@ export default function ThankYou()
 
                     Thank you very much for being so fit and close to me</p>
                 <div className="flex lg:items-start lg:justify-start w-full mt-4 gap-3 p-2 flex-col lg:flex-row items-center justify-center">
-                    <Image src={BlueOne} className="lg:w-[330px] lg:h-[400px] rounded-3xl  shadow-xl shadow-indigo-500 ... w-[200px] h-[300px]" />
-                    <Image src={Badminton} className="lg:w-[330px] lg:h-[400px] rounded-3xl  shadow-xl shadow-indigo-500 ... w-[200px] h-[300px]" />
+                    <Image src={BlueOne} alt="" className="lg:w-[330px] lg:h-[400px] rounded-3xl  shadow-xl shadow-indigo-500 ... w-[200px] h-[300px]" />
+                    <Image src={Badminton} alt="" className="lg:w-[330px] lg:h-[400px] rounded-3xl  shadow-xl shadow-indigo-500 ... w-[200px] h-[300px]" />
                 </div>
             </div>
-            <Image src={Saree} className="w-[500px] rounded-3xl  shadow-xl shadow-indigo-500 ... lg:mt-0 mt-8 flex item-center justify-center" />
+            <Image src={Saree} alt="" className="w-[500px] rounded-3xl  shadow-xl shadow-indigo-500 ... lg:mt-0 mt-8 flex item-center justify-center" />
         </div>
     )
 }
